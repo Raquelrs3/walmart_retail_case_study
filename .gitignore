@@ -1,0 +1,15 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Projeto ignore
+Case_tecnico_Ioasys_V1.ipynb
+Case_tecnico_Ioasys_V2.ipynb
+Case_tecnico_Ioasys_V3.ipynb
+
+#py
+Instrucoes_CaseTecnico_Ioasys.py
+
+#pastas
+pkl
+dashboard
+dados
