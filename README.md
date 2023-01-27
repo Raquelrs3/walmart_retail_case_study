@@ -129,6 +129,7 @@ Obtivemos bons resultados na previsão de vendas, o qual a equipe de negócios p
 A performance do modelo pode ser constatada na análise da relação entre as vendas e as predições:
 
 ![Screen Shot 2023-01-27 at 16 48 33](https://user-images.githubusercontent.com/98356094/215183798-e6fbbe45-2b77-4c82-b252-d07d1f52c490.png)
+
 ![Screen Shot 2023-01-27 at 16 48 24](https://user-images.githubusercontent.com/98356094/215183858-54bdc6c8-1ad0-4dfa-9a1b-2ba56b0a8f1c.png)
 
 
