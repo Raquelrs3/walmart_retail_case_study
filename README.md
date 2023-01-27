@@ -16,10 +16,10 @@ Dessa forma, precisam validar as promoções e sua efetividade.
 
 ## 2. Entendimento do Negócio
 #### Motivação
-o CFO requisitou essa solução durante uma reunião de resultados mensais.
+A equipe de negocio precisa entender como estão os resultados de venda das semanas seguintes para validar as campanhas de promoção anuais da rede de varejo Walmart.
 
 #### Causa Raiz do Problema
-Entender se está ocorrendo retorno financeiro com as campanhas de vendas durante os feriados.
+Entender se está ocorrendo retorno financeiro com as campanhas de vendas durante os feriados e promoções anuais.
 
 #### Quem é o Stakeholder
 Equipe de negocios do Walmart.
@@ -125,17 +125,11 @@ Para a realização desta etapa do projeto, foram aplicados os seguintes modelos
 
 
 ## 7. Resultado Final
-Obtivemos bons resultados na previsão de vendas, o qual a equipe de negócios [poderá validar as campanhas de vendas durante os feriados].
+Obtivemos bons resultados na previsão de vendas, o qual a equipe de negócios poderá validar as campanhas de vendas durante os feriados.
 A performance do modelo pode ser constatada na análise da relação entre as vendas e as predições:
 
-![MachineLearningPerformance](https://user-images.githubusercontent.com/98356094/156846108-a02dafa3-2c7b-455e-ad34-3e5b43add4fc.jpg)
-
-
-Grande parte das lojas tiveram valores do erro MAPE próximo do erro modelo proposto.
-MAPE erro x.xxx
-
-![BusinessPerformance](https://user-images.githubusercontent.com/98356094/156846172-c910cded-5774-4323-86f7-9838b7b0804b.jpg)
-
+![Screen Shot 2023-01-27 at 16 48 33](https://user-images.githubusercontent.com/98356094/215183798-e6fbbe45-2b77-4c82-b252-d07d1f52c490.png)
+![Screen Shot 2023-01-27 at 16 48 24](https://user-images.githubusercontent.com/98356094/215183858-54bdc6c8-1ad0-4dfa-9a1b-2ba56b0a8f1c.png)
 
 
 ## - Conclusão
