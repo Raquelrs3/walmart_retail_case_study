@@ -59,7 +59,7 @@ Equipe de negocios do Walmart.
 ##### Passo 07 - Modelagem de Machine Learning: Foram realizados testes e treinamentos de alguns modelos de machine learning, para possibilitar a comparação da performance e escolha do modelo ideal para o projeto. Foi utilizada a técnica de Cross Validation para garantir a performance real sobre os dados selecionados.
 
 
-##### Passo 08 - Hyperparameter Fine Tunning: Análise pelo método Random Search, em cima do algoritmo escolhido XBoost, para escolha dos melhores valores de cada parâmetro do modelo.
+##### Passo 08 - Hyperparameter Fine Tunning: Análise pelo método Random Search, em cima do algoritmo escolhido Random Forest Regressor, para escolha dos melhores valores de cada parâmetro do modelo.
 
 
 ##### Passo 09 - Tradução e interpretação de erros: Aqui entendemos a performance do modelo para comunicar ao CFO quanto em dinheiro o modelo retornará à empresa. Foram usadas as métricas: MAE (Mean Absolute Error), MAPE (Mean Absolute Percentage Error) e RMSE (Root Mean Squared Error).
@@ -84,17 +84,23 @@ Equipe de negocios do Walmart.
 **Hipótese 1**
 Lojas abertas durante período de feriados importantes deveriam vender mais.
 
+Resposta: Os dados demonstram que a maior quantidade de vendas ocorrem em semanas sem feriado, apesar disso percebemos que a média de vendas nas semanas com feriados é de 1163.14 maior que a média de vendas nas semanas sem feriado. Essa visão agrupada, esconde um comportamento interessante, nos feriados de fevereiro e setembro ocorre um pequeno aumento nas vendas. Já em novembro, o comportamento das vendas tem um aumento considerável, enquanto em dezembro mostra um comportamento oposto, com baixas expressivas nas vendas. Embora não haja dados suficientes, podemos supor que as vendas para os feriados de dezembro são antecipadas em novembro, no feriado de Thanksgiving que antecede a Black Friday.
+
 !![Screen Shot 2023-01-27 at 16 15 07](https://user-images.githubusercontent.com/98356094/215176452-eb4683b1-b358-4da6-af4a-f582b83a6a4b.png)
 
 
 **Hipótese 2**
 Setor de lojas tipo A tem melhores resultados com vendas.
 
+Resposta: O setor de lojas com melhores resultados são, respectivamente: A, B, C. Inclusive ao longo dos anos entre 2010 a 2012, a loja de tipo "A" manteve vendas maiores.
+
 ![Screen Shot 2023-01-27 at 16 16 36](https://user-images.githubusercontent.com/98356094/215176822-5bd7546d-216b-4689-9c67-a4818b651389.png)
 
 
 **Hipótese 3**
 Dias mais quentes tendem a vender menos.
+
+Resposta: O comportamento de vendas é impactado com temperaturas abaixo de 0. Apesar do gráfico mostrar distribuições de vendas maior com temperaturas mais altas, não é obsevado grandes alterações no comportamento das vendas entre temperaturas de 12 a 35 graus celsius.
 
 ![Screen Shot 2023-01-27 at 16 18 23](https://user-images.githubusercontent.com/98356094/215177561-f5a9ac60-c276-4469-adc6-8d452dedbcdd.png)
 
@@ -116,21 +122,21 @@ Para a realização desta etapa do projeto, foram aplicados os seguintes modelos
 
 ### Comparação da performance dos modelos
 
-![Screen Shot 2023-01-27 at 16 24 29](https://user-images.githubusercontent.com/98356094/215179419-1336bb55-0671-4585-85f3-95eec9b1a9ef.png)
+![Screen Shot 2023-02-01 at 14 51 59](https://user-images.githubusercontent.com/98356094/216129300-37baf896-34f4-460f-b5f6-296ea8a9c7c8.png)
 
 
 ### Performance final do modelo escolhido após Cross Validation
 
-![Screen Shot 2023-01-27 at 16 21 44](https://user-images.githubusercontent.com/98356094/215178946-582d9002-9bb0-4545-a428-bdf8d8ca2d82.png)
+![Screen Shot 2023-02-01 at 14 52 23](https://user-images.githubusercontent.com/98356094/216129400-fe3591ad-15a5-46a9-9644-b2a980fb8f26.png)
 
 
 ## 7. Resultado Final
 Obtivemos bons resultados na previsão de vendas, o qual a equipe de negócios poderá validar as campanhas de vendas durante os feriados.
 A performance do modelo pode ser constatada na análise da relação entre as vendas e as predições:
 
-![Screen Shot 2023-01-27 at 16 48 33](https://user-images.githubusercontent.com/98356094/215183798-e6fbbe45-2b77-4c82-b252-d07d1f52c490.png)
+![Screen Shot 2023-02-01 at 15 20 20](https://user-images.githubusercontent.com/98356094/216129482-5de1eced-6855-4640-982c-2aeb08d645bb.png)
 
-![Screen Shot 2023-01-27 at 16 48 24](https://user-images.githubusercontent.com/98356094/215183858-54bdc6c8-1ad0-4dfa-9a1b-2ba56b0a8f1c.png)
+![Screen Shot 2023-02-01 at 15 20 29](https://user-images.githubusercontent.com/98356094/216129566-8ff1400b-6092-4199-8034-58bf211b1d2e.png)
 
 
 ## - Conclusão
