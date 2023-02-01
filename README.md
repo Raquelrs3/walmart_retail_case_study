@@ -127,7 +127,7 @@ Para a realização desta etapa do projeto, foram aplicados os seguintes modelos
 
 ### Performance final do modelo escolhido após Cross Validation
 
-![Screen Shot 2023-02-01 at 14 52 23](https://user-images.githubusercontent.com/98356094/216129400-fe3591ad-15a5-46a9-9644-b2a980fb8f26.png)
+![Screen Shot 2023-02-01 at 15 29 27](https://user-images.githubusercontent.com/98356094/216131060-f85ca216-fe67-41e7-8048-278295c10013.png)
 
 
 ## 7. Resultado Final
