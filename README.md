@@ -76,6 +76,7 @@ Equipe de negocios do Walmart.
 |  Holiday_Flag	|Se a semana é um feriado especial semana. 1 – Semana de feriado, 0 – Semana sem feriado.|
 | Temperature |Temperatura do dia da venda|
 | Fuel_Price |Custo de gasolina na região.|
+| MarkDown1:5 |Representa o tipo de remarcação e a quantidade disponível durante aquela semana.|
 | CPI |Índice de preços ao consumidor.|
 | Unemployment |Taxa de desemprego.|
 
